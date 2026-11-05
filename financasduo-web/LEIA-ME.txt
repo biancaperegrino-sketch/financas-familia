@@ -1,0 +1,2 @@
+FinançasDuo - Etapa 1
+Publicar: suba a pasta "web" (index.html, app.js, rules.js, config.js, manifest.webmanifest) para um repositório no GitHub e importe na Vercel com "Root Directory" = web (sem build).

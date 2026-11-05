@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#1E7F5C">
+<title>FinançasDuo</title>
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+:root{--bg:#F3F6F4;--ink:#12221E;--mute:#55665F;--line:#CBD6D1;--card:#fff;--g:#1E7F5C;--gd:#17694B;--red:#A63A3A;--dark:#12221E}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--ink)}
+#app{max-width:520px;margin:0 auto;padding:16px 16px 110px}
+h1{font-size:22px;margin:8px 0 16px}.cap::first-letter{text-transform:uppercase}h2{font-size:16px;margin:0 0 10px}
+.card{background:var(--card);border:1px solid #DCE5E0;border-radius:12px;padding:16px;margin-bottom:12px}
+.hero{background:var(--dark);color:#fff;border-radius:16px;padding:20px;margin-bottom:12px}
+.hero .big{font-size:34px;font-weight:700}.hero small{color:#B9CCC4}
+.row{display:flex;justify-content:space-between;gap:8px;padding:4px 0;font-size:14px}
+.mute{color:var(--mute);font-size:13px}
+label{display:block;font-size:13px;color:var(--mute);margin:12px 0 4px}
+input,select{width:100%;height:48px;border:1px solid var(--line);border-radius:8px;padding:0 12px;font-size:16px;background:#fff;color:var(--ink)}
+input[type=checkbox]{width:auto;height:auto}
+button{min-height:48px;border:0;border-radius:10px;padding:0 16px;font-size:16px;font-weight:700;cursor:pointer;background:var(--g);color:#fff}
+button.sec{background:#fff;color:var(--ink);border:1px solid var(--line)}
+button.link{background:none;color:var(--gd);min-height:44px;padding:0 8px}
+button.full{width:100%;margin-top:16px}
+.err{background:#fbeaea;color:var(--red);padding:10px 12px;border-radius:8px;margin:12px 0;font-size:14px}
+.ok{background:#e3f2ea;color:var(--gd);padding:10px 12px;border-radius:8px;margin:12px 0;font-size:14px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+.fab{position:fixed;right:max(16px,calc(50% - 244px));bottom:20px;width:60px;height:60px;border-radius:50%;font-size:32px;padding:0;box-shadow:0 4px 12px rgba(18,34,30,.3)}
+.nav{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.item{display:flex;justify-content:space-between;gap:8px;padding:10px 0;border-bottom:1px solid #E4ECE8;font-size:14px}
+.item:last-child{border-bottom:0}
+.neg{color:var(--red)}.pos{color:var(--gd)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.bar{height:8px;background:#E4ECE8;border-radius:4px}.bar>div{height:8px;background:var(--g);border-radius:4px}
+</style>
+</head>
+<body>
+<div id="app" aria-live="polite">Carregando…</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
